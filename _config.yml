@@ -96,3 +96,6 @@ deploy:
   type: github
   repository: git@github.com:tengzhang/tengzhang.github.com.git
   branch: master
+
+livereload:
+  port: 35729

@@ -1,6 +1,7 @@
 <% if (item.comment && page.comments){ %>
 <section id="comment">
   <h1 class="title"><%= __('comment') %></h1>
+  <%= item.link%>
   <!-- 多说评论框 start -->
 	<div class="ds-thread" data-thread-key="<%= item.date%>" data-title="<%= item.title%>" data-url="请替换成文章的网址"></div>
 <!-- 多说评论框 end -->
